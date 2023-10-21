@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-#include<stdlib.h>
 
 std::string out_num(int count, int i) {
 
@@ -37,6 +36,5 @@ int main() {
     }
     std::cout<< out_num(quan, (mas[quan-2][quan-1] + mas[quan-1][quan-2])*2) <<std::endl;
 
-    exit(1);
     return 0;
 }
